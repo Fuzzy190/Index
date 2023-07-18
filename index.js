@@ -168,7 +168,7 @@ function main(){
         tArea1.value += "0"
     } else {
         for (j = i - 1; j >= 0; j--) {
-            tArea1.value += baseConversion[j]
+            tArea1.value += baseConversion[j].toString(16).toUpperCase();
         }
     }
     tArea1.value += "\n"
